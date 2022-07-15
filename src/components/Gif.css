@@ -6,6 +6,7 @@
     padding: 32px;
     flex-direction: column;
     border-radius: 30px;
+    
 
 
 }
@@ -14,18 +15,17 @@
     border-radius: 30px;
 }
 .Gif h4 {
-    margin: 0
+    font-size:larger;
+    font-family: monospace;
+    padding-bottom: 15px
     ;
 }
-.Gif small {
-    margin-bottom: 15px;
-    margin-top: 15px;
-}
+
 .Gif {
-    --glow-color: rgb(255, 255, 255);
+    --glow-color: rgb(202, 209, 117);
     --glow-spread-color: rgba(0, 0, 0, 0.781);
-    --enhanced-glow-color: rgb(0, 0, 0);
-    --btn-color: rgb(0, 0, 0);
+    --enhanced-glow-color: rgb(11, 7, 7);
+    --btn-color: rgb(13, 72, 41);
     border: .25em solid var(--glow-color);
     padding: 1em 3em;
     color: var(--glow-color);
@@ -39,6 +39,7 @@
            inset 0 0 .75em .25em var(--glow-color);
     position: relative;
     transition: all 0.3s;
+
    }
    
    .Gif::after {
