@@ -9,7 +9,7 @@ export default function App() {
     <div className="App">
       <section className="App-content">
         <button onClick={() => setKeyword("mapache")}>Cambiar keyword</button>
-        <ListOfGifs keyword="ecuador" />
+        <ListOfGifs keyword={keyword} />
       </section>
     </div>
   );
