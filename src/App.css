@@ -4,7 +4,7 @@
 }
 
 .App-content {
-  background-color: #282c34;
+  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -32,27 +32,24 @@ button {
   z-index: 1;
  }
  
- button::before {
+ a::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
-  width: 5px;
+  width: 0px;
   height: 100%;
-  background-color: white;
+  background-color: rgb(92, 220, 83);
   z-index: -1;
   transition: all 0.5s;
+  border-radius: 30px;
  }
  
- button:hover::before {
+ a:hover::before {
   width: 100%;
  }
  
- button:hover {
-  color: black;
- }
- 
- button:active:before {
+a:active:before {
   background: #b9b9b9;
  }
  a {
@@ -60,9 +57,18 @@ button {
   text-decoration: none;
   color: whitesmoke;
   padding: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  position: relative;
+  transition: all 0.5s;
+  z-index: 1;
  }
  a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
  }
 
  

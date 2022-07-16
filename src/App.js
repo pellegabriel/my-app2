@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <section className="App-content">
-        <h1>Personajes de "Rick y Morty"</h1>
+        <h1>Personajes de "Rick y Morty"🌌🧪</h1>
         <Link to='/gif/Rick Sanchez'>Rick Sanchez</Link>
         <Link to='/gif/Morty Smith'>Morty Smith</Link>
         <Link to='/gif/Summer Smith'>Summer Smith</Link>

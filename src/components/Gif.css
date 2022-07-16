@@ -1,5 +1,4 @@
 .Gif {
-    border: 3px solid rgb(103, 103, 183);
     display: flex;
     margin: 15px;
     width: 90%;
@@ -22,10 +21,10 @@
 }
 
 .Gif {
-    --glow-color: rgb(202, 209, 117);
-    --glow-spread-color: rgba(0, 0, 0, 0.781);
-    --enhanced-glow-color: rgb(11, 7, 7);
-    --btn-color: rgb(13, 72, 41);
+    --glow-color: rgb(17, 209, 110);
+    --glow-spread-color: rgba(2, 51, 27, 0.781);
+    --enhanced-glow-color: rgb(0, 0, 0);
+    --btn-color: rgb(0, 2, 1);
     border: .25em solid var(--glow-color);
     padding: 1em 3em;
     color: var(--glow-color);
@@ -35,7 +34,7 @@
     border-radius: 1em;
     outline: none;
     box-shadow: 0 0 1em .25em var(--glow-color),
-           0 0 4em 1em var(--glow-spread-color),
+           0 0 3em 0.5em var(--glow-spread-color),
            inset 0 0 .75em .25em var(--glow-color);
     position: relative;
     transition: all 0.3s;
@@ -68,4 +67,7 @@
     box-shadow: 0 0 0.6em .25em var(--glow-color),
            0 0 2.5em 2em var(--glow-spread-color),
            inset 0 0 .5em .25em var(--glow-color);
+   }
+   i{
+    font-size: 50px;
    }
