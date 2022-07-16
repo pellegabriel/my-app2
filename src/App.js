@@ -16,8 +16,6 @@ export default function App() {
         <Link to='/gif/Beth Smith'>Beth Smith</Link>
         <Link to='/gif/Mr. Poopy Butthole'>Mr. Poopy Butthole</Link>
         <Link to='/gif/Meeseeks'>Meeseeks</Link>
-        
-        {/* <button onClick={() => setKeyword("mapache")}>Cambiar keyword</button> */}
         <Route 
         component={ListOfGifs}
         path="/gif/:keyword" />
